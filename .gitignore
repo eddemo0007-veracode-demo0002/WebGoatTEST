@@ -65,3 +65,6 @@ mongo-data/*
 
 # Ignore all nested project files (optional, remove if specific projects need tracking)
 /**/project/
+
+# Ignore srcclr graph json files
+**/srcclr-graph-*.json
