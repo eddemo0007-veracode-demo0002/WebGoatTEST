@@ -6,8 +6,6 @@ like npm or yarn.
 
 After that I ran the following commands:
 
-After updating your .gitignore file, you might need to run a series of Git commands to apply the changes effectively, especially if any of the files that are now ignored were previously tracked by Git. Here are the steps you should follow:
-
 1. Add the updated .gitignore file:
 
     git add .gitignore
