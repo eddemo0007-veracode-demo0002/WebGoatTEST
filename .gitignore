@@ -1,54 +1,67 @@
-/nb-configuration.xml
-/nbactions.xml
-/target/
-/.classpath
-/.project
-/.settings/.jsdtscope
-/.settings/org.eclipse.jdt.core.prefs
-/.settings/org.eclipse.m2e.core.prefs
-/.settings/org.eclipse.wst.common.component
-/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml
-/.settings/org.eclipse.wst.common.project.facet.core.xml
-/.settings/org.eclipse.wst.jsdt.ui.superType.container
-/.settings/org.eclipse.wst.jsdt.ui.superType.name
-/.settings/org.eclipse.wst.validation.prefs
-/.externalToolBuilders/
-.project
-*/target/*
-mongo-data/*
-.classpath
-.idea/
-.settings/
-src/main/main.iml
+# Java and IDE-related
+*.class
+*.iml
+*.jar
+*.jsp
 *.BACKUP.*.jsp
 *.BASE.*.jsp
 *.LOCAL.*.jsp
 *.REMOTE.*.jsp
+*.log
+*.properties
+*.script
+*.lck
+**/.DS_Store
+
+# Maven artifacts
+target/
+**/target/
+pom.xml.versionsBackup
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+.externalToolBuilders/
+**/.factorypath
+
+# IntelliJ IDEA specific
+.idea/
+**/.idea/
+
+# VS Code specific
+**/.vscode/
+
+# Spring Tool Suite
+**/.sts4-cache/
+
+# Sonatype
+.sonatype
+
+# Build outputs
+classes/
+bin/
+**/bin/
+
+# Node and JS
+*.js.map
+
+# Database files
+*.mv.db
+
+# Specific project paths
 src/main/webapp/plugin_extracted/*
 src/main/webapp/users/*.jar
 src/main/webapp/plugin_lessons/*.jar
 src/main/webapp/users/*.props
-classes/*
-*.iml
-pom.xml.versionsBackup
-
-/*.iml
-.extract/*
-UserDatabase.mv.db
 webgoat-container/src/main/webapp/users/guest.org.owasp.webgoat.plugin.*.props
 webgoat-container/src/main/webapp/plugin_lessons/dist-*.pom
 webgoat-lessons/**/target
-**/*.jar
-**/.DS_Store
-webgoat-server/mongo-data/*
 webgoat-lessons/vulnerable-components/dependency-reduced-pom.xml
-**/.sts4-cache/*
-**/.vscode/*
-**/.factorypath
-/.sonatype
-**/bin/*
-webgoat.lck
-webgoat.log
-webgoat.properties
-webgoat.script
-TestClass.class
+webgoat-server/mongo-data/*
+mongo-data/*
+.extract/*
+
+# Ignore all nested project files (optional, remove if specific projects need tracking)
+/**/project/
+
