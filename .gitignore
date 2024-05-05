@@ -45,6 +45,7 @@ bin/
 
 # Node and JS
 *.js.map
+node_modules/  # Added to ignore all node modules
 
 # Database files
 *.mv.db
@@ -64,4 +65,3 @@ mongo-data/*
 
 # Ignore all nested project files (optional, remove if specific projects need tracking)
 /**/project/
-
